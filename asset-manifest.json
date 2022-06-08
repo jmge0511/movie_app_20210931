@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_ap_20210931/static/css/main.00527eb6.css",
+    "main.js": "/movie_ap_20210931/static/js/main.5947e32b.js",
+    "index.html": "/movie_ap_20210931/index.html",
+    "main.00527eb6.css.map": "/movie_ap_20210931/static/css/main.00527eb6.css.map",
+    "main.5947e32b.js.map": "/movie_ap_20210931/static/js/main.5947e32b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00527eb6.css",
+    "static/js/main.5947e32b.js"
+  ]
+}
