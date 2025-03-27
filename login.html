@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../resource/css/login.css">
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header>
+        <div class="logo">WebbyFrames <span>for Figma</span></div>
+        <nav>
+            <button class="signup-btn" onclick="location.href='signup.html'">회원가입</button>
+        </nav>
+    </header>
+
+    <!-- 로그인 폼 -->
+    <section class="login-container">
+        <h1>로그인</h1>
+        <form action="#" method="POST">
+            <input type="email" placeholder="아이디(이메일)" required>
+            <div class="password-container">
+                <input type="password" placeholder="비밀번호" required>
+                <span class="toggle-password"></span>
+            </div>
+            <p class="forgot-password">비밀번호를 잊어버리셨나요?</p>
+            <button type="submit" class="login-btn">로그인</button>
+            <p class="signup-text">계정이 없으신가요? <a href="../html/signup.html">Sign Up</a></p>
+        </form>
+    </section>
+    <!-- 푸터 -->
+    <footer>
+        <p>CompanyName © 202X. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
